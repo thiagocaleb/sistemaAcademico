@@ -6,7 +6,14 @@ public class Aluno extends Pessoa{
 	private Turma turma;
 	private Curso curso;
 	private int nota;
+	private boolean matriculado;
 	
+	public boolean isMatriculado() {
+		return matriculado;
+	}
+	public void setMatriculado(boolean matriculado) {
+		this.matriculado = matriculado;
+	}
 	public int getNota() {
 		return nota;
 	}
@@ -30,5 +37,13 @@ public class Aluno extends Pessoa{
 	}
 	public void setCurso(Curso curso) {
 		this.curso = curso;
+	}
+
+	public void pediTrancamentoDeCurso() {
+		
+	}
+
+	public void peditrocaDeCurso(Curso curso) {
+		
 	}
 }
